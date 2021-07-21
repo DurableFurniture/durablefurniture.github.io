@@ -52,5 +52,28 @@
     margin: 20px -100px 40px;
 }
 .Thang-readmore-online{
-    ma
+    width: 1140px;
+    /* border-bottom: 1px solid #b9b9b9;
+    border-top: 1px solid #b9b9b9; */
+    height: 60px;
+    margin: auto;
+    padding: 12.5px 100px ;
+    
+}
+.Thang-readmore-online-1 li{
+    margin-left: 10px;
+}
+.Thang-readmore-online-1 li:hover{
+    color: black;
+    background: #ffc400 ;
+}
+.Thang-readmore-icon{
+    display: block;
+    width: 38px;
+    padding: 0.50em 0;
+    text-align: center;
+    border: 1px solid #979494;
+    line-height: 1;
+    float:right;
+
 }
