@@ -46,12 +46,12 @@
 
 @media screen and (max-width: 1120px) {
     .vinh-menu ul li {padding: 10px;}
-    .vinh-drop-down-content {top: 45px;}
+    .vinh-drop-down-content {top: 45px !important;}
 }
 
 @media screen and (max-width: 915px) {
     .vinh-menu ul li {font-size: 14px;}
-    .vinh-drop-down-content {top: 31px;}
+    .vinh-drop-down-content {top: 31px !important;}
     
 }
 
