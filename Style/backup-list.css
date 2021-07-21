@@ -1,0 +1,123 @@
+.vinh-list-container {
+    display: flex;
+    max-width: 1780px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.vinh-list-menu {
+    width: 20%;
+    padding: 0 30px;
+}
+
+.vinh-list-menu h3 {
+    font-size: 150%;
+    font-weight: 500;
+    padding: 10px 0;
+    border-bottom: 2px solid #bebebe;
+    position: relative;
+}
+
+.vinh-list-menu h3::after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 5px;
+    background-color: chocolate;
+    position: absolute;
+    bottom: -3px;
+    z-index: 100;
+}
+
+.vinh-aside-menu-list {
+    margin-top: 25px;
+}
+
+.vinh-list-menu h4 {
+    font-weight: 500;
+    font-size: 110%;
+    margin-bottom: 10px;
+}
+
+.vinh-aside-menu-list .checkbox {
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+}
+
+.vinh-aside-menu-item {
+    margin: 5px 0;
+}
+
+.last-item {
+    border-bottom: 2px solid #bebebe;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+.vinh-aside-menu-color {
+    cursor: pointer;
+    margin: 7px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.price-range {
+    padding: 5px;
+    width: 100px;
+}
+
+.vinh-aside-menu-list .bi-search {
+    border: 1px solid;
+    padding: 5px 8px;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+    background-color: black;
+}
+
+.bi-star {
+    font-size: 120%;
+    margin: 3px;
+    color: black !important;
+}
+
+.vinh-list-product {
+    width: 78%;
+    position: relative;
+}
+
+.vinh-result-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px solid #bebebe;
+    padding-bottom: 10px;
+}
+
+.vinh-product-list-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+select {
+    padding: 5px;
+}
+
+.vinh-account-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    max-width: 1920px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+}
