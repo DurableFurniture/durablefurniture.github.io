@@ -63,6 +63,10 @@
 
 @media screen and (min-width: 768px) {
     .vinh-sub-menu-dropdown {display: none !important;}
+    
+}
+
+@media screen and (max-width: 768px) {
     .vinh-blog-wrap {grid-template-columns: 100% !important;}
 }
 
