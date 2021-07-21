@@ -64,6 +64,7 @@
     .vinh-ad-section {margin: 0 auto; font-size: 75%; width: 355px; height: 250px; padding: 15px;}
     .vinh-ad-section p {margin: 10px 0;}
     .vinh-ad-section h3 {margin: 10px 0;}
+    .vinh-register {margin-top: 20px !important;}
 }
 
 @media screen and (min-width: 767px) {
