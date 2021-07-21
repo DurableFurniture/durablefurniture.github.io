@@ -40,8 +40,7 @@
         height: 100%;
     }
     .vinh-product-list-container {grid-template-columns: 1fr 1fr !important;}
-    .vinh-blog {margin-bottom: 0 !important; border: 1px solid;}
-    .vinh-blog-post {border: 1px solid;}
+    .vinh-blog {margin-bottom: 0 !important;}
 }
 
 @media screen and (max-width: 600px) {
@@ -126,8 +125,8 @@
 }
 
 @media screen and (max-width: 807px) {
-    .vinh-menu ul li {
-        padding: 30px 10px;
+    .vinh-menu .vinh-drop-down {
+        padding: 30px 10px !important;
     }
 }
 
