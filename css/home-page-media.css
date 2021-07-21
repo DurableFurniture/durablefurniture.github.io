@@ -13,6 +13,7 @@
 @media screen and (max-width: 1121px) {
     .vinh-banner {top: 25%;}
     .vinh-banner a {padding: 15px 45px;}
+    .vinh-drop-down-content {top: 78px !important;}
 }
 
 @media screen and (max-width: 994px) {
@@ -44,15 +45,8 @@
     .vinh-new-arrival {grid-template-columns: 1fr; width: 70vw; height: 80%;}
 }
 
-@media screen and (max-width: 1120px) {
-    .vinh-menu ul li {padding: 10px;}
-    .vinh-drop-down-content {top: 45px !important;}
-}
-
 @media screen and (max-width: 915px) {
-    .vinh-menu ul li {font-size: 14px;}
-    .vinh-drop-down-content {top: 31px !important;}
-    
+    .vinh-menu ul li {font-size: 14px;}    
 }
 
 @media screen and (max-width: 767px) {
@@ -67,8 +61,9 @@
     .vinh-register {margin-top: 20px !important;}
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .vinh-sub-menu-dropdown {display: none !important;}
+    .vinh-blog-wrap {grid-template-columns: 100% !important;}
 }
 
 @media screen and (max-width: 1400px) {
@@ -124,7 +119,7 @@
 
 @media screen and (max-width: 807px) {
     .vinh-menu ul li {
-        padding: 30px 10px !important;
+        padding: 30px 10px;
     }
 }
 
