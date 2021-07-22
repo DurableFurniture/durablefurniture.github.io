@@ -330,6 +330,7 @@ a {
 }
 
 .vinh-drop-down-item h3 {
+    font-size: 130%;
     color: #6CB975;
     margin-top: 10px;
 }
@@ -413,6 +414,10 @@ a {
     width: 100%;
 }
 
+.vinh-furniture img {
+    height: 15vw;
+}
+
 .vinh-furniture h3 {
     text-transform: none;
     margin-bottom: 10px;
@@ -426,7 +431,8 @@ a {
     overflow: hidden;
     left: 50%;
     transform: translate(-50%);
-    opacity: .9
+    opacity: .9;
+    padding-top: 20px !important;
 }
 
 /* ------------------------------------------------------ */
@@ -442,21 +448,22 @@ a {
     background-size: cover;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 15vw;
+    font-size: 150%;
 }
 
-.vinh-brand .vinh-drop-down-item:nth-child(1) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(2) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(3) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(4) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(5) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/wooslider/product-slider1.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(6) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(1):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(2):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(3):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(4):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(5):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/wooslider/product-slider1.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(6):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(1) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://cdn.shopify.com/s/files/1/1920/4697/products/C21_Regan_Sofa_06_WEB_2_3cbd6e12-3de2-4995-9042-74af106a1550_600x.jpg?v=1572043044);}
+.vinh-brand .vinh-drop-down-item:nth-child(2) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://cdn.shopify.com/s/files/1/1920/4697/products/B12_Cepella_WEB_2_600x.jpg?v=1621611368);}
+.vinh-brand .vinh-drop-down-item:nth-child(3) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(4) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(5) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/wooslider/product-slider1.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(6) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(1):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://cdn.shopify.com/s/files/1/1920/4697/products/C21_Regan_Sofa_06_WEB_2_3cbd6e12-3de2-4995-9042-74af106a1550_600x.jpg?v=1572043044);}
+.vinh-brand .vinh-drop-down-item:nth-child(2):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://cdn.shopify.com/s/files/1/1920/4697/products/B12_Cepella_WEB_2_600x.jpg?v=1621611368);}
+.vinh-brand .vinh-drop-down-item:nth-child(3):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(4):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(5):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/wooslider/product-slider1.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(6):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);}
 
 /* ------------------------------------------------------ */
 /* FOOTER */

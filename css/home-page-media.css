@@ -73,6 +73,7 @@
     .vinh-blog-post {width: 85%; margin-bottom: 100px !important; margin: 0 auto;}
     .vinh-short-ad-text {padding-bottom: 20px;}
     .vinh-short-ad {height: 1000px;}
+    .vinh-brand .vinh-drop-down-item {font-size: 100% !important;}
 }
 
 @media screen and (max-width: 1400px) {

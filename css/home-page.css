@@ -550,8 +550,9 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 32vw;
-    background-color: #6CB975;
+    background-color: #445265;
     color: white;
+    text-align: justify;
 }
 
 .vinh-about-company-left {
@@ -564,7 +565,7 @@ footer {
 
 .vinh-about-company-left div {
     width: 31vw;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 .vinh-about-company-left h2 {
