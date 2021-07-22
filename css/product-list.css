@@ -144,6 +144,7 @@
     justify-content: space-between;
     position: relative;
     margin-left: 50px;
+    margin-bottom: 20px;
 }
 #thien-list-col p{
     text-align: center;
@@ -198,10 +199,11 @@
     display: inline;
 }
 .thien-pagination{
-    margin-top: 50px;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    display: flex;
     align-items: center;
-    text-align: center;
-    margin-left: 45%;
+    justify-content: center;
 }
 .thien-pagination a {
     color: black;
@@ -210,6 +212,7 @@
     text-decoration: none;
     border: 1px solid;
     margin-bottom: 30px;
+    margin: 3px;
   }
 
 .thien-pagination a:hover {
