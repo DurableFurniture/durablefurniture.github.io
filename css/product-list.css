@@ -76,6 +76,10 @@
     margin-top: 5px;
     margin-bottom: 10px;
 }
+.thien-product {
+    border-bottom: 2px solid #cfcfcf;
+    padding-bottom: 25px;
+}
 .thien-product-menu li{
     margin: 10px;
 }
@@ -168,7 +172,6 @@
 #thien-list-col img{
     border: 10px;
     border-radius: 10px;
-    margin-right: 30px;
     width: 340px;
     height: 320px;
 
