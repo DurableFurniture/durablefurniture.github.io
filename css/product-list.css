@@ -86,10 +86,15 @@
 }
 .thien-product-menu p{
     font-weight: bold;
-
+}
+.thien-product-menu p:hover{
+    color: red;
 }
 .thien-about-menu a{
     font-weight: bold;
+}
+.thien-about-menu a:hover{
+    color: red;
 }
 .thien-product-menu img{
     width: 45px;
@@ -145,6 +150,7 @@
     position: relative;
     margin-left: 50px;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 #thien-list-col p{
     text-align: center;
@@ -180,13 +186,14 @@
 .thien-main-content .thien-main-list-wrapper {
     width: 80%;
 }
-
+.thien-sorting-by-bar{
+    border-bottom: 1px solid lightgrey;
+}
 .thien-sort-by {
     width: 100%;
     position: relative;
     margin-top: 100px;
     margin-left: 50px;
-    margin-bottom: 50px;
 }
 
 .thien-sort-by p {
