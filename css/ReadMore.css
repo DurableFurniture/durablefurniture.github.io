@@ -14,7 +14,7 @@
 }
 .Thang-readmore-box{
     width: 1140px;
-    height: 2000px;
+    height: 3000px;
     /* background-color: rgb(110, 185, 235); */
     margin-top: 40px;
     margin: auto;
@@ -28,12 +28,14 @@
     color: black;
     width: 100%;
     height: 25px;
+    margin-bottom: 25px;
 }
 .Thang-readmore-span span{
     float: left;
+    margin-right: 40px;
 }
 .Thang-readmore-le h1{
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 30px;
 
 }
@@ -75,5 +77,163 @@
     border: 1px solid #979494;
     line-height: 1;
     float:right;
+}
+.Thang-relatted{
+    width: 1140px;
+    /* background: #949795; */
+    height: 800px;
+    margin-top: 50px;
+}
+.Thang-relatted h3{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.Thang-relatted-box{
+    display: flex;
+    width: 1140px;
+    /* background: cornflowerblue; */
+    height: 800px;
+}
+.Thang-relatted-box-1{
+    display: block;
+    width: 49%;
+    padding: 0 12px;
+}
+.Thang-relatted-box-img{
+    width: 100%;
+    height: 350px;
 
+}
+.Thang-relatted-img{
+    object-fit: cover;
+    transform: scale(1);
+    width: 100%;
+    height: 350px;
+}
+.Thang-relatted-img:hover{
+    transform: scale(1.1);
+    Transition: 0.5s;
+}
+.Thang-readmore-info{
+    width: 100%;
+    margin-bottom: 5px;
+    height: 30px;
+}
+.Thang-readmore-alo{
+    width: 100%;
+    margin-top: 20px;
+    height: 400px;
+}
+.Thang-readmore-info span{
+    float: left;
+    margin-right: 40px;
+}
+.Thang-readmore-h4{
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+a{
+    text-decoration: none
+}
+.Thang-readmore-buttom{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: white;
+    color: black;
+    font-size: 14px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.Thang-readmore-buttom:hover{
+    color: white;
+    background: black;
+}
+
+
+
+
+/* Readmore RPS */
+
+@media screen and (max-width: 768px){
+    .account-banner {
+        width: 100%;
+        height: 300px;
+    }
+    .Thang-readmore-le{
+        padding: 0 50px;
+    }
+    .Thang-readmore-box{
+        width: 100%;
+        height: 4100px;
+    }
+    .Thang-relatted{
+        width: 100%;
+        height: 800px;
+        margin-top: 50px;
+    }
+    .Thang-relatted-box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        display: block;
+    }
+    .Thang-relatted-box-1{
+        display: block;
+        padding: 0 12px;
+        width: 100%;
+    }
+    .Thang-readmore-online{
+        width: 100%;
+        height: 60px; 
+        margin: 0 auto;
+    }
+    .Thang-readmore-buttom{
+        padding: 5px;
+        text-align: center;
+    }
+
+    
+}
+@media screen and (max-width: 500px){
+    .account-banner {
+        width: 100%;
+        height: 300px;
+    }
+    .Thang-readmore-box{
+        width: 100%;
+        height: 4300px;
+    }
+    .Thang-readmore-le{
+        padding: 0 40px;
+    }
+    .Thang-relatted-box{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Thang-relatted-box-1{
+        display: block;
+        padding: 0 12px;
+        width: 100%;
+    }   
+    .Thang-readmore-buttom{
+        font-size: 10px;
+        text-align: center;
+    }
+    .Thang-readmore-online{
+        width: 100%;
+        height: 60px; 
+        padding: 0 auto;
+    }
+    .Thang-readmore-img{
+        width: 500px;
+        height: 250px;
+        float: none;
+        vertical-align: middle;
+        background-size: cover;
+        margin: 20px -70px 40px;
+    }
 }

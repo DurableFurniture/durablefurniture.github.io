@@ -112,7 +112,7 @@ a{
     color: white;
     font-size: 16px;
     border: 1px solid grey;
-    border-left: none;
+
     cursor: pointer;
 }
 .Thang-blog-search-button:hover{
@@ -239,3 +239,4 @@ ul{
     height: 50px;
     display: block;
 }
+
