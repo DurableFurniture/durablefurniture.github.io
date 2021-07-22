@@ -600,20 +600,21 @@ footer {
 #hong-scroll-top-btn {
     color: #151514;
     text-align: center;
-    background-color: #ffc400;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+    background-color: #ec7264 !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 5px !important;
+    line-height: 50px !important;
     z-index: 9999;
-    bottom: 20px;
-    right: 10px;
+    bottom: 40px !important;
+    right: 20px !important;
     position: fixed;
     display: none;
 }
 
 #hong-scroll-top-btn:hover {
     color: white;
-    background-color: black;
+    background-color: #e85646 !important;
     cursor: pointer;
     transition: all ease-in-out .3s;
 }
