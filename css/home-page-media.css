@@ -161,4 +161,5 @@
     .ft-main-item:nth-child(3) {display: none !important;}
     .vinh-short-ad {height: 600px;}
     .vinh-short-ad-product {display: none;}
+    .vinh-find-store {display: none !important;}
 }

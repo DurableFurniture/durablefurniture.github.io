@@ -75,14 +75,29 @@ a {
 /* TOP BANNER */
 /* ------------------------------------------------------ */
 
-.vinh-free-shipping {
-    display: flex;
-    padding: 20px;
-    justify-content: center;
+.vinh-free-shipping-container {
+    position: relative;
+    width: 100%;
     background-color: #364251;
     color: white;
-    font-size: 90%;
+    padding: 20px;
     font-weight: 400;
+}
+
+.vinh-free-shipping-wrap {
+    display: flex;
+    justify-content: center;
+    font-size: 90%;
+}
+
+.vinh-find-store {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+.vinh-find-store a:hover {
+    color: #6CB975 !important;
 }
 
 .vinh-about-company .vinh-promo-pic {
@@ -294,6 +309,10 @@ a {
     text-decoration: none;
     color: white;
     font-size: 110%;
+}
+
+.vinh-inner-container ul li a:active {
+    color: #6CB975;
 }
 
 .vinh-inner-container:last-child ul li {
