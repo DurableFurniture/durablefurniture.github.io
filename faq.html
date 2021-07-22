@@ -261,13 +261,14 @@
     <div id="hong-scroll-top-btn" onclick="hongScrollTop()">
       <i class="fas fa-chevron-up"></i>
     </div>
+
     <div class="vinh-container-footer"></div>
     <footer>
       <div class="ft-social vinh-info">
         <div class="ft-main-item">
           <h3 class="ft-title">About the company</h3>
           <ul>
-            <li><a href="http://127.0.0.1:5501/about-us.html">About Us</a></li>
+            <li><a href="about-us.html">About Us</a></li>
             <li><a href="#">Careers</a></li>
             <li><a href="#">Affiliates</a></li>
             <li><a href="#">Press</a></li>
@@ -277,7 +278,7 @@
         <div class="ft-main-item">
           <h3 class="ft-title">Customer Service</h3>
           <ul>
-            <li><a href="http://127.0.0.1:5501/faq.html">FAQ</a></li>
+            <li><a href="faq.html">FAQ</a></li>
             <li><a href="http://127.0.0.1:5501/faq.html">Help Center</a></li>
             <li><a href="#">Shopping Guide</a></li>
             <li><a href="#">Shipping</a></li>
@@ -307,7 +308,7 @@
       </div>
       <div class="ft-social-container">
         <div class="ft-social vinh-sns">
-          <span>&copy; 2021 Furnihaus. All rights reserved</span>
+          <span>&copy; 2021 Durable Furniture. All rights reserved</span>
           <div class="vinh-sns-links">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -323,17 +324,61 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"
     integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="https://kit.fontawesome.com/957c836d53.js" crossorigin="anonymous"></script>
 
   <script>
-    $('#search-bar .search-label').on('click', function (e) {
-      e.preventDefault();
-      $('#search-bar').toggleClass('collapsed');
-    });
+    $(document).ready(function () {
+      $('.vinh-promo-slide').slick({
+        infinite: true,
+        speed: 300,
+        autoplay: true,
+        variableWidth: true
+      })
 
-    function subMenuFunction() {
-      document.getElementById('myDropdown').classList.add('vinh-show')
-    }
+      $('.vinh-popular-product-slide').slick({
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      })
+
+      $('#search-bar .search-label').on('click', function (e) {
+        e.preventDefault();
+        $('#search-bar').toggleClass('collapsed');
+      });
+
+      $('#myIcon').click(function () {
+        $('#myDropdown').addClass('vinh-show');
+      })
+    });
 
     window.onclick = function (event) {
       if (!event.target.matches('.bi-list')) {
