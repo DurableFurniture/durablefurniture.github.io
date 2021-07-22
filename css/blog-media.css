@@ -27,7 +27,7 @@
         width: 100%;
     }
     .Thang-blog-Loren{
-        width: 728px;
+        width: 100%;
         margin-bottom: 20px;
         font-size: 16px;
         
@@ -72,6 +72,7 @@
         width: 100%;
         margin: auto;
         height: 100%;
+        margin-right: 40px;
 
     }
     .Thang-container-blog-2{
@@ -81,13 +82,13 @@
         margin: auto;
     }
     .Thang-blog-Loren{
-        width: 370px;
+        width: 100%;
         margin-bottom: 20px;
         font-size: 15px;
         
     }
     .Thang-blog-1{
-        padding: 0px;
+        padding: 0px 20px 0 0;
         margin-top: 0px;
         margin-left: 0px;
         width: 100%;
@@ -115,6 +116,12 @@
     }
     .Thang-Page{
         height: 70px;
+    }
+    .Thang-icon span:nth-child(2){
+        margin-right: 70px;
+    }
+    .Thang-icon span:nth-child(1){
+        margin-right: 60px;
     }
 
 }

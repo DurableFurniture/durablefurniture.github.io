@@ -29,11 +29,18 @@
     letter-spacing: 1px;
     margin-top: 100px;
 }
+
+
 #thien-menu{
     width: 300px;
     margin-left: 50px;
     float: left;
     margin-top: 100px;
+}
+#thien-menu img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
 }
 #thien-content{
     width: 70%;
@@ -49,7 +56,6 @@
     list-style-type:none;
     margin:0px;
     padding:0px;
-
 }
 .thien-menu li{
     margin: 0px 0px 10px 0px;
@@ -70,29 +76,33 @@
 .thien-sub-menu a:hover{
    color:red;
 }
-
+.thien-sub-menu{
+    border-bottom: 1px solid lightslategray;
+}
 .thien-sub-menu li{
     margin-left: 30px;;
     margin-top: 5px;
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
+
+=======
+.thien-product {
+    border-bottom: 2px solid #cfcfcf;
+    padding-bottom: 25px;
+}
+>>>>>>> 038ff6efe326df52c3683c80272eb490faa7179c
 .thien-product-menu li{
     margin: 10px;
 }
 .thien-product-menu img{
     width: 45px;
     height: 45px;
-
-}
-.thien-product-menu p{
-    font-weight: bold;
 }
 .thien-product-menu p:hover{
     color: red;
 }
-.thien-about-menu a{
-    font-weight: bold;
-}
+
 .thien-about-menu a:hover{
     color: red;
 }
@@ -103,14 +113,11 @@
     margin: auto;
     margin-right: 10px;
 }
-.thien-product-menu p{
-    font-weight: bold;
-}
+
 .thien-about-menu li{
     margin:15px;
 }
 .thien-btn-detail{
-    display: inline-block;
     padding: 0.6em 1.2em;
     border: 0.1em solid black;
     margin: 0 0.3em 0.3em 0;
@@ -127,7 +134,7 @@
     color: black;
 }
 .thien-btn-product{
-    display: inline-block;
+    
     padding: 10px 13px;
     border: 0.1em solid black;
     margin: 0 0.3em 0.3em 0;
@@ -148,7 +155,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin-left: 50px;
+    margin-left: 56px;
     margin-bottom: 20px;
     margin-top: 30px;
 }
@@ -168,8 +175,12 @@
 #thien-list-col img{
     border: 10px;
     border-radius: 10px;
+<<<<<<< HEAD
     margin-right: 30px;
+    width: 390px;
+=======
     width: 340px;
+>>>>>>> 038ff6efe326df52c3683c80272eb490faa7179c
     height: 320px;
 
 }
@@ -186,19 +197,14 @@
 .thien-main-content .thien-main-list-wrapper {
     width: 80%;
 }
-.thien-sorting-by-bar{
-    border-bottom: 1px solid lightgrey;
-}
+
 .thien-sort-by {
     width: 100%;
     position: relative;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left: 50px;
 }
 
-.thien-sort-by p {
-    display: inline;
-}
 
 .thien-group-btn {
     position: absolute;
