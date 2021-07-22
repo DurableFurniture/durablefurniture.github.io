@@ -585,10 +585,10 @@ footer {
 }
 
 .vinh-blog-wrap {
-    height: 590px;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 40px;
     text-align: left;
+    height: 600px;
 }
 
 .vinh-blog .vinh-promo-pic {
@@ -598,6 +598,7 @@ footer {
 
 .vinh-blog-post {
     position: relative;
+    height: 450px;
 }
 
 .vinh-blog-post .vinh-inside-text {

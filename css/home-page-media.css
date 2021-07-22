@@ -69,8 +69,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .vinh-blog-wrap {display: flex !important; flex-direction: column; height: 910px !important;}
-    .vinh-blog-post {width: 80%; margin-bottom: 125px !important; margin: 0 auto;}
+    .vinh-blog-wrap {display: flex !important; flex-direction: column; height: 920px !important;}
+    .vinh-blog-post {width: 85%; margin-bottom: 100px !important; margin: 0 auto;}
+    .vinh-short-ad-text {padding-bottom: 20px;}
 }
 
 @media screen and (max-width: 1400px) {
@@ -97,7 +98,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .ft-social {display: block !important;}
+    .ft-social {display: grid !important; grid-template-columns: 1fr 1fr;}
     .vinh-sns {text-align: center !important;}
     .vinh-sns-links {margin-top: 10px !important;}
     .vinh-short-ad {display: flex !important; flex-direction: column;}
@@ -116,12 +117,8 @@
     .vinh-outer-wrap {font-size: 75%}
 }
 
-@media screen and (max-width: 1080px) {
-    .vinh-blog-wrap {height: 650px;}
-}
-
-@media screen and (max-width: 912px) {
-    .vinh-blog-wrap {height: 750px;}
+@media screen and (max-width: 898px) {
+    .vinh-blog-wrap {height: 600px;}
 }
 
 @media screen and (max-width: 807px) {
@@ -133,4 +130,31 @@
 @media screen and (max-width: 836px) {
     .vinh-list-menu {display: none !important;}
     .vinh-list-product {width: 100% !important; margin-left: 20px; margin-right: 20px;}
+}
+
+@media screen and (max-width: 425px) {
+    .vinh-banner a {font-size: 50%; padding: 7px 25px !important;}
+    .vinh-supsub sub {
+        left: 2px;
+        top: -35px;
+    }
+    
+    .vinh-supsub sup {
+        left: 2px;
+        top: -10px;
+    }
+
+    .vinh-product-promo-item:first-child .vinh-product-promo-text {
+        margin: 10px 20px;
+        bottom: 0;
+    }
+
+    .vinh-product-promo-item:nth-child(2) .vinh-product-promo-text {
+        margin: 20px;
+        left: 0;
+    }
+
+    .vinh-popular-product {width: 85%; margin: 0 auto;}
+    .ft-social {grid-template-columns: 1fr;}
+    .ft-main-item:nth-child(3) {display: none !important;}
 }
