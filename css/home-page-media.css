@@ -72,6 +72,7 @@
     .vinh-blog-wrap {display: flex !important; flex-direction: column; height: 920px !important;}
     .vinh-blog-post {width: 85%; margin-bottom: 100px !important; margin: 0 auto;}
     .vinh-short-ad-text {padding-bottom: 20px;}
+    .vinh-short-ad {height: 1000px;}
 }
 
 @media screen and (max-width: 1400px) {
@@ -157,4 +158,6 @@
     .vinh-popular-product {width: 85%; margin: 0 auto;}
     .ft-social {grid-template-columns: 1fr;}
     .ft-main-item:nth-child(3) {display: none !important;}
+    .vinh-short-ad {height: 600px;}
+    .vinh-short-ad-product {display: none;}
 }
