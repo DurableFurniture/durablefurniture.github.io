@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+    #story {height: 350px;}
+    .story-text {padding: 10px 30px;}
+    body {font-size: 14px;}
+    .startab h1 {font-size: 2em;}
+}
+
+@media screen and (max-width: 320px) {
+    .startab h1 {font-size: 1.8em;}
+    .startab p {font-size: .85em;}
+}
