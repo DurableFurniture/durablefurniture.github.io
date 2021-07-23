@@ -1,12 +1,14 @@
-h2{
-    color: #151514;
-	font-family: Montserrat;
-    font-size: 34px;
+*{
+    margin: 0;
+    padding: 0;
 }
-.thien-container{
+#thien-wrapper{
     max-width: 1780px;
-    width: 100%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    position: relative;
 }
 .thien-banner{
     background-image: url(http://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/6607-1.jpg);
@@ -16,7 +18,7 @@ h2{
 }
 .thien-inner{
     text-align: center;
-    position: absolute;
+    position: relative;
     display: table;
     width: 100%;
     text-align: center;
@@ -28,77 +30,14 @@ h2{
     letter-spacing: 1px;
     margin-top: 100px;
 }
-.thien-list-button{
-    font-size: 30px;
-    color:#fff;
-    background-color: #333;
-    border-color: #ccc;
-}
-.thien-list-button:hover{
-    cursor: pointer;
-    background-color:orange;
-}
-.thien-grid-button{
-    font-size: 30px;
-    color:#fff;
-    background-color: #333;
-    border-color: #ccc;
-}
-.thien-grid-button:hover{
-    cursor: pointer;
-    background-color:orange;
-}
 
-.thien-dropbtn {
-    background-color: white;
-    width: 200px;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
+#thien-menu img:hover{
     cursor: pointer;
-    border: 1px solid black;
-  }
-  
-  .thien-dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-.thien-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-.thien-dropdown-content a {
-    color: black;
-    padding: 5px 6px;
-    text-decoration: none;
-    display: block;
-  }
-  
-.thien-dropdown-content a:hover {
-    background-color: white;
-    color: grey;
-    cursor: pointer;
-  }
-  
-.thien-dropdown:hover .thien-dropdown-content {
-    display: block;
-  }
-  
-.thien-dropdown:hover .thien-dropbtn {
-    background-color:grey;
-  }
-.thien-menu{
-  position: absolute;
-  z-index: 1;
-  overflow-x: hidden;
-  padding: 8px 0;
-  margin-left: 180px;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}
+#thien-content{
+    padding-left: 30px;
 }
 .thien-menu h2{
     font-size:  30px;
@@ -111,7 +50,6 @@ h2{
     list-style-type:none;
     margin:0px;
     padding:0px;
-    text-align: left;
 }
 .thien-menu li{
     margin: 0px 0px 10px 0px;
@@ -129,148 +67,163 @@ h2{
     margin-left: 50px;
 }
 
-.thien-menu a:hover{
+.thien-sub-menu a:hover{
    color:red;
 }
-
+.thien-sub-menu{
+    border-bottom: 1px solid lightslategray;
+}
 .thien-sub-menu li{
     margin-left: 30px;;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.thien-product {
+    border-bottom: 2px solid #d7d7d7;
+    text-align: center;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.thien-product-menu li{
+    margin: 10px;
+}
+.thien-product-menu img{
+    width: 45px;
+    height: 45px;
+}
+.thien-product-menu p:hover{
+    color: red;
+}
+
+.thien-about-menu a:hover{
+    color: red;
 }
 .thien-product-menu img{
     width: 45px;
     height: 45px;
     float: left;
-    margin-bottom: 10px;
+    margin: auto;
     margin-right: 10px;
 }
-.thien-product-menu p{
-    font-weight: bold;
-}
-.thien-about-menu a{
-    font-weight: bold;
-}
-.thien-list-wrapper{
-     margin-left: 380px;
-    
+
+.thien-about-menu li{
+    margin:15px;
 }
 .thien-btn-detail{
     display: inline-block;
     padding: 0.6em 1.2em;
-    border: 0.1em solid black;
-    margin: 0 0.3em 0.3em 0;
-    margin-right: 8px;
-    border-radius: 0.12em;
+    border: 1px solid black;
+    border-radius: 0.2em;
     text-decoration: none;
     background-color:white;
     color:#ffffff;
     text-align: center;
-    float: left;
 }
 .thien-btn-detail:hover{
-    background-color: yellow;
-    color: black;
+    background-color: #ffc400;
+    color: #333 !important;
 }
+
+.thien-product p:first-child {
+    font-weight: 500;
+}
+
 .thien-btn-product{
     display: inline-block;
     padding: 10px 13px;
-    border: 0.1em solid black;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
+    border: 1px solid black;
+    border-radius: 0.2em;
     text-decoration: none;
     background-color:white;
     color:#ffffff;
     text-align: center;
-    float: left;
-    margin-right: 8px;
 }
 .thien-btn-product:hover{
-    background-color: yellow;
-    color: black;
+    background-color: #ffc400;
+    color: #333 !important;
 }
-#thien-list-col{
-    display: flex;
-    justify-content: space-between;
+
+.thien-btn-detail {grid-column: span 3;}
+
+.thien-main-list-wrapper {
     margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 50px;
+    row-gap: 25px;
+    position: relative;
 }
-#thien-list-col p{
+
+.thien-main-list-wrapper p{
     text-align: center;
     margin-bottom: 5px;
     margin-top: 10px;
 }
-#thien-list-col a{
+.thien-main-list-wrapper a{
     text-decoration: none;
     color: black;
     font-size: large;
 }
-#thien-list-col p:hover{
-    color:mediumspringgreen;
+
+.thien-main-list-wrapper figure {
+    width: 100%;
+    height: 18vw;
 }
-#thien-list-col img{
-    border: 10px;
+
+.thien-main-list-wrapper img{
     border-radius: 10px;
-    margin-right: 20px;
-    width: 340px;
-    height: 320px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
-#thien-list-col img:hover{
+.thien-main-list-wrapper img:hover{
     transform: scale(1.1);
     transition: all ease-in-out 0.5s;
     cursor: pointer;
+}
+
+.test {
+    position: absolute;
+    top: 40px; 
+    right: 0;
 }
 
 .thien-main-content {
     display: flex;
 }
 
-.thien-main-content .thien-menu {
-    width: 20%;
-    margin-top: 100px;
-}
-
-.thien-main-content .thien-main-list-wrapper {
-    width: 80%;
-}
-
 .thien-sort-by {
     width: 100%;
     position: relative;
-    margin-top: 100px;
 }
 
-.thien-sort-by p {
-    display: inline;
-}
 
 .thien-group-btn {
     position: absolute;
     right: 0%;
     display: inline;
 }
-.thien-sorting-by-bar{
-    margin-left: 400px;
-}
 .thien-pagination{
-    margin-top: 50px;
-    margin-left: 800px;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .thien-pagination a {
     color: black;
     float: left;
     padding: 8px 16px;
     text-decoration: none;
-    transition: background-color .3s;
     border: 1px solid;
     margin-bottom: 30px;
+    margin: 3px;
   }
 
-.thien-pagination a:hover:not(.active) {
-    background-color: yellow;
+.thien-pagination a:hover {
+    background-color: #ffc400;
   }
-  .vinh-result-name {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: inline-block;
-    width: 100%;
-    border-bottom: 2px solid #bebebe;
-    padding-bottom: 10px;
-}

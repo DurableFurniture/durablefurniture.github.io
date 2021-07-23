@@ -75,14 +75,29 @@ a {
 /* TOP BANNER */
 /* ------------------------------------------------------ */
 
-.vinh-free-shipping {
-    display: flex;
-    padding: 20px;
-    justify-content: center;
+.vinh-free-shipping-container {
+    position: relative;
+    width: 100%;
     background-color: #364251;
     color: white;
-    font-size: 90%;
+    padding: 20px;
     font-weight: 400;
+}
+
+.vinh-free-shipping-wrap {
+    display: flex;
+    justify-content: center;
+    font-size: 90%;
+}
+
+.vinh-find-store {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+.vinh-find-store a:hover {
+    color: #6CB975 !important;
 }
 
 .vinh-about-company .vinh-promo-pic {
@@ -296,6 +311,10 @@ a {
     font-size: 110%;
 }
 
+.vinh-inner-container ul li a:active {
+    color: #6CB975;
+}
+
 .vinh-inner-container:last-child ul li {
     padding: 5px;
 }
@@ -314,10 +333,9 @@ a {
     position: absolute;
     top: 80px;
     z-index: 100;
-    background-color: white;
+    background-color: #445265;
     min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    border: 1px solid #f1f1f1;
 }
 
 .vinh-brand a {
@@ -328,12 +346,18 @@ a {
 .vinh-drop-down-item ul li {
     display: block;
     padding: 2px 0;
-    font-size: 90%;
+}
+
+.vinh-drop-down-item h3 {
+    font-size: 130%;
+    color: #6CB975;
+    margin-top: 10px;
 }
 
 .vinh-drop-down-item ul li a {
-    font-size: 100%;
-    color: black;
+    font-size: 95%;
+    color: white;
+    font-family: 'Poppins';
 }
 
 .vinh-drop-down-item ul li a:hover {
@@ -401,12 +425,18 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    padding: 0 30px 40px 30px;
+    padding: 0 30px 20px 30px;
+    
 }
 
 .vinh-furniture img,
 .vinh-brand img {
     width: 100%;
+    opacity: 1 !important;
+}
+
+.vinh-furniture img {
+    height: 15vw;
 }
 
 .vinh-furniture h3 {
@@ -418,11 +448,12 @@ a {
 .vinh-furniture,
 .vinh-brand {
     width: 70vw;
-    height: 30vw;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    height: fit-content;
+    overflow: hidden;
     left: 50%;
     transform: translate(-50%);
+    opacity: .9;
+    padding-top: 20px !important;
 }
 
 /* ------------------------------------------------------ */
@@ -438,21 +469,22 @@ a {
     background-size: cover;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    height: 15vw;
+    font-size: 150%;
 }
 
-.vinh-brand .vinh-drop-down-item:nth-child(1) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(2) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(3) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(4) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(5) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/wooslider/product-slider1.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(6) {background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(1):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/livingroom.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(2):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/dinning.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(3):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/bedroom.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(4):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(5):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/wooslider/product-slider1.jpg);}
-.vinh-brand .vinh-drop-down-item:nth-child(6):hover {background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/home-slider1/slider-1.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(1) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Resources/Img/header-footer-img/regan-sofa.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(2) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Resources/Img/header-footer-img/Cepella.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(3) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Resources/Img/header-footer-img/bedroom.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(4) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Resources/Img/header-footer-img/livingroom2.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(5) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Resources/Img/header-footer-img/bedroom2.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(6) {background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/Resources/Img/header-footer-img/juneau_bed_v2_600x.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(1):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/Resources/Img/header-footer-img/regan-sofa.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(2):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/Resources/Img/header-footer-img/Cepella.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(3):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/Resources/Img/header-footer-img/bedroom.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(4):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/Resources/Img/header-footer-img/livingroom2.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(5):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/Resources/Img/header-footer-img/bedroom2.jpg);}
+.vinh-brand .vinh-drop-down-item:nth-child(6):hover {background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/Resources/Img/header-footer-img/juneau_bed_v2_600x.jpg);}
 
 /* ------------------------------------------------------ */
 /* FOOTER */
@@ -570,20 +602,21 @@ footer {
 #hong-scroll-top-btn {
     color: #151514;
     text-align: center;
-    background-color: #ffc400;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+    background-color: #ec7264 !important;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 5px !important;
+    line-height: 50px !important;
     z-index: 9999;
-    bottom: 20px;
-    right: 10px;
+    bottom: 40px !important;
+    right: 20px !important;
     position: fixed;
     display: none;
 }
 
 #hong-scroll-top-btn:hover {
     color: white;
-    background-color: black;
+    background-color: #e85646 !important;
     cursor: pointer;
     transition: all ease-in-out .3s;
 }

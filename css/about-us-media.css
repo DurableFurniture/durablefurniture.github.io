@@ -3,12 +3,12 @@
     .story-text {padding: 10px 30px;}
     body {font-size: 14px;}
     .startab h1 {font-size: 2em;}
-    .quote{height: 450px;}
+    .quote{width: 100%;height: 350px;}
     #cauquote{font-size:100%; width: 80%px; height: 60%px; top: 50px; left: 100px;}
     .quan-grid-container{grid-template-columns:repeat(1, 1fr);}
     .slogan-img img{width: 60%; height: 60%;}
     .quan-grid{font-size: 100%;}
-    }
+
 }
 
 @media screen and (max-width: 320px) {

@@ -1,12 +1,10 @@
 body, html {
-    height: 100%;
     margin: 0;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   }
 
 .quan-container {
     width: 100%;
-    overflow: hidden;
 }
 
 #story{
@@ -101,6 +99,14 @@ body, html {
     grid-template-columns: auto auto auto;
 }
 
+.statistical-grid-1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 360px;
+    margin: 0 auto;
+}
+
 .statistical-img {
     margin: 0 auto;
 }
@@ -111,14 +117,6 @@ body, html {
     text-align: center;
     overflow: hidden;
     color: rgba(255, 255, 255, 0.932);
-}
-
-.statistical-grid-1{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
-    width: 360px;
-    margin: 0 auto;
 }
 
 .quan-grid-container{

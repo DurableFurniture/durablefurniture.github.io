@@ -6,7 +6,7 @@
     .vinh-short-ad{font-size: 14px; width: 90vw;}
     .vinh-short-ad p {margin-bottom: 30px;}
     .vinh-short-ad h2 {margin-top: 20px; font-size: 150%;}
-    .vinh-new-arrival {width: 90vw; height: 70vw;}
+    .vinh-new-arrival {width: 80vw; height: 70vw;}
     .vinh-new-arrival-item .vinh-inside-text {width: 100%;}
     .vinh-blog-wrap {width: 90%; height: 500px; font-size: 85%;}
 }
@@ -44,7 +44,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .vinh-new-arrival {grid-template-columns: 1fr; width: 70vw; height: 80%;}
+    .vinh-new-arrival {grid-template-columns: 1fr; width: 80vw; height: 80%;}
 }
 
 @media screen and (max-width: 915px) {
@@ -73,6 +73,7 @@
     .vinh-blog-post {width: 85%; margin-bottom: 100px !important; margin: 0 auto;}
     .vinh-short-ad-text {padding-bottom: 20px;}
     .vinh-short-ad {height: 1000px;}
+    .vinh-brand .vinh-drop-down-item {font-size: 100% !important;}
 }
 
 @media screen and (max-width: 1400px) {
@@ -160,4 +161,5 @@
     .ft-main-item:nth-child(3) {display: none !important;}
     .vinh-short-ad {height: 600px;}
     .vinh-short-ad-product {display: none;}
+    .vinh-find-store {display: none !important;}
 }
