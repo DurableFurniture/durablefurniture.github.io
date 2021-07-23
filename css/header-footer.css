@@ -311,7 +311,9 @@ a {
     font-size: 110%;
 }
 
-.vinh-inner-container ul li a:active {
+.vinh-inner-container ul li a:hover,
+.vinh-inner-container ul li a:active
+{
     color: #6CB975;
 }
 
