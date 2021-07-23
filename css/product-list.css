@@ -11,7 +11,7 @@
     position: relative;
 }
 .thien-banner{
-    background-image: url(http://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/6607-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -132,7 +132,7 @@
 
 .thien-btn-product{
     display: inline-block;
-    padding: 10px 13px;
+    padding: 10px 15px;
     border: 1px solid black;
     border-radius: 0.2em;
     text-decoration: none;
@@ -140,6 +140,13 @@
     color:#ffffff;
     text-align: center;
 }
+
+.thien-btn-wrapper .thien-btn-product:nth-child(2),
+.thien-btn-wrapper .thien-btn-product:nth-child(3),
+.thien-btn-wrapper .thien-btn-product:nth-child(4) {
+    margin-left: 5px;
+}
+
 .thien-btn-product:hover{
     background-color: #ffc400;
     color: #333 !important;
@@ -220,6 +227,7 @@
     padding: 8px 16px;
     text-decoration: none;
     border: 1px solid;
+    border-radius: 5px;
     margin-bottom: 30px;
     margin: 3px;
   }
