@@ -3,9 +3,20 @@
     .story-text {padding: 10px 30px;}
     body {font-size: 14px;}
     .startab h1 {font-size: 2em;}
+    .quote{height: 450px;}
+    #cauquote{font-size:100%; width: 80%px; height: 60%px; top: 50px; left: 100px;}
+    .quan-grid-container{grid-template-columns:repeat(1, 1fr);}
+    .slogan-img img{width: 60%; height: 60%;}
+    .quan-grid{font-size: 100%;}
+    }
 }
 
 @media screen and (max-width: 320px) {
     .startab h1 {font-size: 1.8em;}
     .startab p {font-size: .85em;}
+    .quote{height: 370px;}
+    #cauquote{font-size:60%; width: 200px; height: 150px; top: 50px; left: 9.5px;}
+    .quan-grid-container{}
+    .slogan-img img{}
+    .quan-grid{}
 }
