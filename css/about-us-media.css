@@ -3,6 +3,36 @@
     .story-text {padding: 10px 30px;}
     body {font-size: 14px;}
     .startab h1 {font-size: 2em;}
+    .quote{width: 100%;height: 350px;}
+    #cauquote{font-size: 80%;padding: 30px 30px;width: 375px;height: 215px;top: -100px;left: 70px;}
+    .quan-wrap{height: 650px;}
+    .grid1-container{
+        width: 100%;
+    }
+    .clients{
+        width: 100%;
+    }
+    .grid2-container{
+        width: 100%;
+        row-gap: 20px;
+        column-gap: 30px;
+    }
+    .client-icon{
+        width: auto;
+    }
+    #team{
+        padding: 40px;
+        height: 100%;
+    }
+    .quan-photo{
+        width: 180px;
+    }
+    .quan-container a{
+        width: 100%;
+    }
+    #statistical{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 320px) {

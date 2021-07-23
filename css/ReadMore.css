@@ -97,7 +97,7 @@
 }
 .Thang-relatted-box-1{
     display: block;
-    width: 49%;
+    width: 50%;
     padding: 0 12px;
 }
 .Thang-relatted-box-img{
@@ -108,13 +108,17 @@
 .Thang-relatted-img{
     object-fit: cover;
     transform: scale(1);
-    width: 100%;
+    display: block;
+    width: 545px;
     height: 350px;
 }
-.Thang-relatted-img:hover{
+.Thang-relatted-box-img:hover{
+    transform: scale(1.1);
+}
+/* .Thang-relatted-img:hover{
     transform: scale(1.1);
     Transition: 0.5s;
-}
+} */
 .Thang-readmore-info{
     width: 100%;
     margin-bottom: 5px;
