@@ -40,7 +40,7 @@
     padding-left: 30px;
 }
 .thien-menu h2{
-    font-size:  30px;
+    font-size:  20px;
     margin-bottom: 7px;
     border-bottom: 2px;
     margin-left: 50px;
@@ -96,7 +96,24 @@
 .thien-product-menu p:hover{
     color: red;
 }
+.vinh-aside-menu-item {
+    margin: 5px 0;
+}
 
+.price-range {
+    padding: 5px;
+    width: 4vw;
+}
+
+#thien-menu .bi-search {
+    cursor: pointer;
+    border: 1px solid;
+    font-size: 90%;
+    padding: 2px 5px;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: black;
+}
 .thien-about-menu a:hover{
     color: red;
 }
@@ -245,21 +262,3 @@
     border-radius: 50%;
 }
 
-.vinh-aside-menu-item {
-    margin: 5px 0;
-}
-
-.price-range {
-    padding: 5px;
-    width: 4vw;
-}
-
-#thien-menu .bi-search {
-    cursor: pointer;
-    border: 1px solid;
-    font-size: 90%;
-    padding: 2px 5px;
-    border-radius: 50%;
-    margin-left: 10px;
-    color: black;
-}
