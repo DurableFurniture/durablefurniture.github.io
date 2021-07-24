@@ -71,32 +71,6 @@ a:hover {
 
 /* Items */
 
-ul.hong-breadcrumb {
-    list-style: none;
-    background-color: white;
-    word-wrap: break-word;
-}
-
-ul.hong-breadcrumb li {
-    display: inline;
-    font-size: 13.8px;
-    color: #767676;
-}
-
-ul.hong-breadcrumb li + li:before {
-    padding: -2px;
-    color: #767676;
-    content: ">\00a0";
-}
-
-ul.hong-breadcrumb li a {
-    color: #767676;
-}
-
-ul.hong-breadcrumb li a:hover {
-    color: #151514;
-}
-
 /* Gallery */
 
 .product-single .gallery {

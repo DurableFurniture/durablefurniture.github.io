@@ -5,13 +5,13 @@
 #thien-wrapper{
     max-width: 1780px;
     width: 80%;
-    margin: 100px auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: 20% 80%;
     position: relative;
 }
 .thien-banner{
-    background-image: url(http://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/04/6607-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -40,7 +40,7 @@
     padding-left: 30px;
 }
 .thien-menu h2{
-    font-size:  30px;
+    font-size:  20px;
     margin-bottom: 7px;
     border-bottom: 2px;
     margin-left: 50px;
@@ -96,7 +96,24 @@
 .thien-product-menu p:hover{
     color: red;
 }
+.vinh-aside-menu-item {
+    margin: 5px 0;
+}
 
+.price-range {
+    padding: 5px;
+    width: 4vw;
+}
+
+#thien-menu .bi-search {
+    cursor: pointer;
+    border: 1px solid;
+    font-size: 90%;
+    padding: 2px 5px;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: black;
+}
 .thien-about-menu a:hover{
     color: red;
 }
@@ -132,7 +149,7 @@
 
 .thien-btn-product{
     display: inline-block;
-    padding: 10px 13px;
+    padding: 10px 15px;
     border: 1px solid black;
     border-radius: 0.2em;
     text-decoration: none;
@@ -140,6 +157,13 @@
     color:#ffffff;
     text-align: center;
 }
+
+.thien-btn-wrapper .thien-btn-product:nth-child(2),
+.thien-btn-wrapper .thien-btn-product:nth-child(3),
+.thien-btn-wrapper .thien-btn-product:nth-child(4) {
+    margin-left: 5px;
+}
+
 .thien-btn-product:hover{
     background-color: #ffc400;
     color: #333 !important;
@@ -220,6 +244,7 @@
     padding: 8px 16px;
     text-decoration: none;
     border: 1px solid;
+    border-radius: 5px;
     margin-bottom: 30px;
     margin: 3px;
   }
@@ -227,3 +252,13 @@
 .thien-pagination a:hover {
     background-color: #ffc400;
   }
+
+  .vinh-aside-menu-color {
+    display: inline-block;
+    cursor: pointer;
+    margin: 7px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+

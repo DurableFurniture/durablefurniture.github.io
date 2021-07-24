@@ -60,114 +60,7 @@
     background-color: #e85646;
 }
 
-/* ------------------------------------------------------ */
-/* FOOTER */
-/* ------------------------------------------------------ */
 
-footer {
-    background-color: #151514;
-    color: white;
-}
-
-.vinh-container-footer {
-    flex: 1;
-}
-
-.ft-social-container {
-    width: 100%;
-    overflow: hidden;
-    background-color: black;
-}
-
-.ft-social {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    width: 1180px;
-}
-
-/* ------------------------------------------------------ */
-/* FOOTER UPPER HALF */
-/* ------------------------------------------------------ */
-
-.ft-title {
-    font-size: 1.375rem;
-    padding-bottom: 0.625rem;
-}
-
-.ft-main-item h3 {
-    font-size: 120%;
-}
-
-.ft-main-item:last-child {
-    margin-left: 70px;
-}
-
-.ft-main-item ul li {
-    display: block;
-    margin: 10px 0;
-}
-
-.ft-main-item ul li a {
-    text-decoration: none;
-    color: #ddd;
-}
-
-.ft-main-item ul li a:hover {
-    color: #6CB975;
-}
-
-.vinh-newsletter {
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-}
-
-.vinh-newsletter-input {
-    padding: 10px;
-    width: 100%;
-}
-
-.bi-envelope {
-    font-size: 150%;
-    margin-left: 18px;
-    vertical-align: middle;
-}
-
-/* ------------------------------------------------------ */
-/* FOOTER LOWER HALF */
-/* ------------------------------------------------------ */
-
-.vinh-info {
-    padding: 70px 0;
-}
-
-.vinh-sns {
-    padding: 20px 0;
-    align-items: center;
-}
-
-.fab {
-    position: relative;
-    top: 0;
-    margin-left: 5px;
-    color: white;
-    border: 2px solid white;
-}
-
-.fab:hover {
-    top: -5px;
-}
-
-.fa-facebook-f,
-.fa-tumblr {
-    padding: 10px 14px;
-}
-
-.fa-twitter,
-.fa-instagram {
-    padding: 10px 11px;
-}
 
 /* ------------------------------------------------------ */
 /* PRODUCT PROMO */
@@ -374,7 +267,7 @@ footer {
 .vinh-short-ad {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 2fr 1fr;
-    height: 800px;
+    height: 810px;
 }
 
 .vinh-short-ad h2 {
@@ -401,10 +294,10 @@ footer {
 .vinh-short-ad-product ul {
     display: grid;
     position: absolute;
-    top: -70px;
-    left: 20px;
+    top: -80px;
+    left: 25px;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 880px;
+    max-width: 900px;
     gap: 30px;
 }
 
@@ -412,7 +305,7 @@ footer {
     width: 100%;
     height: 350px;
     padding: 50px 0;
-    background-color: #f6f6f6;
+    background-color: #ddd;
 }
 
 .vinh-short-ad-pic {
