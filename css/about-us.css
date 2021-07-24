@@ -51,6 +51,8 @@ body, html {
 .quote{
     width: 100%;
     height: 800px;
+    justify-content: center;
+    align-items: center;
     background-image: url("/Resources/Img/aboutus-img/quote.jpg");
     background-position: center;
     background-size: cover;
@@ -88,18 +90,56 @@ body, html {
 
 #statistical {
     width: 100%;
-    height: 425px;
-    background-image: url("/Resources/Img/aboutus-img/statistical.png");
-    object-fit: cover;
+    height: 100%;
+    background-color: #6cb975;
+}
+
+.statistical-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.statistical-grid-1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.statistical-img {
+    margin: 0 auto;
+}
+
+.statistical-text{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.932);
 }
 
 .quan-grid-container{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.slogan-img img{
+    border: 1px solid;
+    display: block;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
 }
 
 .quan-grid{
-    padding: 50px;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
 }
 
 .grid1-container{
