@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
     #thien-wrapper {grid-template-columns: 100%; width: 85%;}
-    #thien-menu {display: none !important;}
+    #thien-menu {display: none !important; }
     #thien-content {padding: 0}
     .thien-main-list-wrapper {width: 100%; font-size: 75%;}
     .thien-main-list-wrapper p:first-child {font-size: .73em !important; margin-top: 10px;}

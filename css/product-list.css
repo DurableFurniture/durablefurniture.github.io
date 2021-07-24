@@ -5,7 +5,7 @@
 #thien-wrapper{
     max-width: 1780px;
     width: 80%;
-    margin: 100px auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: 20% 80%;
     position: relative;
