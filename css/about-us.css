@@ -61,7 +61,7 @@ body, html {
 
 #cauquote{
     text-align: left;
-    font-size: 120%;
+    font-size: 110%;
     font-weight: 300;
     font-style: italic;
     padding: 20px 50px;
@@ -84,10 +84,40 @@ body, html {
 }
 
 .slogan{
-    margin: 0 auto;
-    width: 1170px;
     padding-top: 100px;
     padding-bottom: 100px;
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.quan-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.slogan-img img{
+    border: 1px solid;
+    display: block;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.quan-grid{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quan-grid-container h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -100px;
 }
 
 #statistical {
@@ -101,6 +131,8 @@ body, html {
 .statistical-grid {
     display: grid;
     grid-template-columns: auto auto auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .statistical-grid-1{
@@ -117,45 +149,17 @@ body, html {
     width: 70%;
 }
 
-.statistical-img a{
-    text-align: left;
-    font-size: 80%;
-    color: #dcf7df;
-}
-
 .statistical-text{
     width: 80%;
     height: 100%;
-    text-align: center;
     overflow: hidden;
     color: rgba(255, 255, 255, 0.932);
 }
 
-.quan-grid-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    width: 1180px;
-    margin: 0 auto;
-}
-
-.quan-grid-container p {
-    width: 100%;
-}
-
-.slogan-img img{
-    border: 1px solid;
-    display: block;
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
-}
-
-.quan-grid{
-    width: 80%;
-    height: 100%;
-    text-align: center;
-    overflow: hidden;
+.statistical-grid-1 a{
+    text-align: left;
+    font-size: 80%;
+    color: #fff8de;
 }
 
 .grid1-container{
@@ -182,7 +186,7 @@ body, html {
 .clients{
     margin: 0 auto;
     width: 1180px;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 .grid2-container{
