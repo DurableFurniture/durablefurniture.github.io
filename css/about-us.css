@@ -94,24 +94,23 @@ body, html {
 .quan-grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    column-gap: 30px;
 }
 
 .slogan-img img{
-    border: 1px solid;
     display: block;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 .quan-grid{
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+
 }
 
 .tittle-h3 {
