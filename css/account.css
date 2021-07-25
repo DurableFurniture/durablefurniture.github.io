@@ -1,18 +1,3 @@
-.vinh-account-banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://furnihaus.kaththemes.com/demo/wp-content/uploads/revslider/promoslider/product-slider.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100vw;
-    max-width: 1920px;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: 'Montserrat';
-    letter-spacing: 3px;
-}
-
 .vinh-account-container {
     width: 85vw;
     max-width: 1180px;

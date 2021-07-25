@@ -77,6 +77,7 @@
     .vinh-short-ad-text {padding-bottom: 20px;}
     .vinh-brand .vinh-drop-down-item {font-size: 100% !important;}
     .vinh-short-ad-product ul {gap: 15px;}
+    .vinh-store-wrap {grid-template-columns: 1fr 1fr !important;}
 }
 
 @media screen and (max-width: 1400px) {
@@ -88,7 +89,7 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .vinh-about-company {width: 80vw; margin: 0 auto; grid-template-columns: 1fr; height: 800px;}
+    .vinh-about-company {width: 80vw; margin: 0 auto !important; grid-template-columns: 1fr; height: 800px;}
     .vinh-about-company-left div {width: 100%; padding: 20px;}
     .vinh-compare-wrap {width: 90vw; column-gap: 15px;}
     .vinh-compare-wrap .vinh-promo-pic {width: 100%;}
@@ -170,6 +171,8 @@
     .vinh-short-ad-product {display: none;}
     .vinh-find-store {display: none !important;}
     .vinh-about-company {height: 500px !important;}
+    #map {display: none !important;}
+    .vinh-store-wrap {grid-template-columns: 1fr !important;}
 }
 
 @media screen and (max-width: 320px) {
