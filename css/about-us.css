@@ -127,29 +127,35 @@ body, html {
     background-color: #6cb975;
     padding-top: 80px;
     padding-bottom: 80px;
+    margin: 0 auto;
 }
 
 .statistical-grid {
+    width: 1280px;
+    height: auto;
     display: grid;
     grid-template-columns: auto auto auto;
+    margin: 0 auto;
 }
 
 .statistical-grid-1{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
-    width: 360px;
-    margin: 0 auto;
+    width: 100%;
 }
 
 .statistical-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 70%;
+    margin: 0 auto;
 }
 
 .statistical-img a{
-    text-align: left;
+    position:relative;
+    top: 15px;
+    left: -40px;
     font-size: 79%;
     color: #dcf7df;
 }
@@ -157,8 +163,11 @@ body, html {
 .statistical-text{
     width: 80%;
     height: 100%;
-    text-align: center;
-    overflow: hidden;
+    position:relative;
+    top: 15px;
+    left: 65px;
+    padding-top: 10px;
+    padding-bottom: 50px;
     color: rgba(255, 255, 255, 0.932);
 }
 
