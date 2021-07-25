@@ -27,7 +27,7 @@
     }
     .Thang-contact-box-2{
         display: flex;
-        width: 768px;
+        width: 100%;
         margin-top: -24px;
         flex-wrap: wrap;
         margin: 0;
