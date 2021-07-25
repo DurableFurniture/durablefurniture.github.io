@@ -214,11 +214,6 @@
 /* POPULAR PRODUCTS */
 /* ------------------------------------------------------ */
 
-.vinh-outer-wrap {
-    margin: 100px 0;
-    overflow: hidden;
-}
-
 .vinh-popular-product {
     text-align: center;
 }
@@ -267,7 +262,7 @@
 .vinh-short-ad {
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 2fr 1fr;
-    height: 810px;
+    height: 850px;
 }
 
 .vinh-short-ad h2 {

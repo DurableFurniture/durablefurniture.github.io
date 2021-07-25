@@ -70,15 +70,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .vinh-outer-wrap {margin: 40px 0;}
+    .vinh-outer-wrap {margin: 40px 0 !important;}
     .vinh-section-teller {font-size: 170% !important;}
     .vinh-blog-wrap {display: flex !important; flex-direction: column; height: 920px !important;}
     .vinh-blog-post {width: 85%; margin-bottom: 100px !important; margin: 0 auto;}
     .vinh-short-ad-text {padding-bottom: 20px;}
-    .vinh-short-ad {height: 1030px}
     .vinh-brand .vinh-drop-down-item {font-size: 100% !important;}
     .vinh-short-ad-product ul {gap: 15px;}
-    .vinh-short-ad-product .vinh-promo-pic {height: 320px;}
 }
 
 @media screen and (max-width: 1400px) {
@@ -109,7 +107,8 @@
     .ft-social {display: grid !important; grid-template-columns: 1fr 1fr;}
     .vinh-sns {text-align: center !important;}
     .vinh-sns-links {margin-top: 10px !important;}
-    .vinh-short-ad {display: flex !important; flex-direction: column;}
+    .vinh-short-ad {display: flex !important; flex-direction: column; height: 1050px;}
+    .vinh-short-ad-product figure {height: 45vw !important;}
     .vinh-first-div {margin-bottom: 30px;}
 }
 
