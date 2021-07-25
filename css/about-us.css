@@ -67,7 +67,7 @@ body, html {
     padding: 20px 50px;
     color: white;
     width: 480px;
-    height: 310px;
+    height: 350px;
     background-color: #6CB975;
     z-index: 100;
     position: absolute;
@@ -86,12 +86,16 @@ body, html {
 .slogan{
     margin: 0 auto;
     width: 1170px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #statistical {
     width: 100%;
     height: 100%;
     background-color: #6cb975;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .statistical-grid {
@@ -108,7 +112,15 @@ body, html {
 }
 
 .statistical-img {
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+}
+
+.statistical-img a{
+    text-align: left;
+    font-size: 80%;
+    color: #dcf7df;
 }
 
 .statistical-text{
@@ -125,6 +137,10 @@ body, html {
     gap: 30px;
     width: 1180px;
     margin: 0 auto;
+}
+
+.quan-grid-container p {
+    width: 100%;
 }
 
 .slogan-img img{
@@ -166,6 +182,7 @@ body, html {
 .clients{
     margin: 0 auto;
     width: 1180px;
+    padding-top: 100px;
 }
 
 .grid2-container{
