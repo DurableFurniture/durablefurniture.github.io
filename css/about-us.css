@@ -148,16 +148,21 @@ body, html {
 .statistical-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .statistical-img a{
     position:relative;
     top: 15px;
-    left: -40px;
-    font-size: 79%;
+    left: -60px;
+    font-size: 110%;
     color: #dcf7df;
+}
+
+#transaction {
+    position:relative;
+    left: -70px;
 }
 
 .statistical-text{
@@ -229,6 +234,33 @@ body, html {
 
 #quan-ourteam{
     margin: 0 auto;
+}
+
+#our-showrooms{
+    width: auto;
+    height: 600px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#showroom-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+}
+
+#showroom-grid{
+    padding: 15px;
+    width: 560px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.quan-showroom-grid p{
+    border: 1px solid;
+    margin: 0 auto;
+    width: 400px;
 }
 
 .vinh-section-teller {
