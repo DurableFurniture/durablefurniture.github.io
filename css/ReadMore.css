@@ -100,13 +100,16 @@
 }
 .Thang-relatted-box-img{
     width: 100%;
-
+    height: 400px;
+    overflow: hidden;
 }
 .Thang-relatted-img{
     object-fit: cover;
     transform: scale(1);
+    transition: transform .5s;
     display: block;
-    width: 100%;}
+    width: 100%;
+}
 .Thang-relatted-box-img:hover{
     transform: scale(1.1);
 }
