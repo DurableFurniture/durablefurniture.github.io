@@ -181,7 +181,7 @@
                 </div>
               </div>
             </li>
-            <li><a href="Account.html">Log in</a></li>
+            <li id="login-btn"><a href="Account.html">Log in</a></li>
           </ul>
         </div>
       </div>
@@ -661,6 +661,11 @@
         }
       }
     }
+
+    document.getElementById("myIcon").onclick = function(){
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    };
 
     window.onscroll = function () { myFunction() };
 
