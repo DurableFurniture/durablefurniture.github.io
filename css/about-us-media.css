@@ -1,22 +1,168 @@
-@media screen and (max-width: 768px) {
-    #story {height: 350px;}
-    .story-text {padding: 10px 30px;}
-    body {font-size: 14px;}
-    .startab h1 {font-size: 2em;}
-    .quote{width: 100%;height: 350px;}
-    #cauquote{font-size:100%; width: 80%px; height: 60%px; top: 50px; left: 100px;}
-    .quan-grid-container{grid-template-columns:repeat(1, 1fr);}
-    .slogan-img img{width: 60%; height: 60%;}
-    .quan-grid{font-size: 100%;}
-
+@media screen and (max-width: 1024px) {
+    #story{
+        height: 480px;
+    }
+    .quote{
+        height: 600px;
+    }
+    #cauquote{
+        top: -180px;
+        left: 150px;
+    }
+    .slogan{
+        width: 1000px;
+    }
+    #statistical {
+        height: 80%;
+    }
+    .statistical-grid-1{
+        width: 80%;
+    }
+    .statistical-img {
+        width: 60%;
+    }
+    .statistical-img a{
+        top: 15px;
+        left: 10px;
+        font-size: 90%;
+    }
+    #transaction {
+        left: 10px;
+    }
+    .clients{
+        width: 1000px;
+    }
+    #team{
+        height: 480px;
+    }
+    .grid1-container{
+        gap: 20px;
+        width: 1000px;
+    }
+    .quan-photo img{
+        width: 80%;
+        height: 80%;
+    }
 }
 
-@media screen and (max-width: 320px) {
-    .startab h1 {font-size: 1.8em;}
-    .startab p {font-size: .85em;}
-    .quote{height: 370px;}
-    #cauquote{font-size:60%; width: 200px; height: 150px; top: 50px; left: 9.5px;}
-    .quan-grid-container{}
-    .slogan-img img{}
-    .quan-grid{}
+@media screen and (max-width: 768px) {
+    .startab{
+        margin: 90px auto 100px auto;
+    }
+    #story {
+        height: 350px;
+    }
+    .story-text {
+        padding: 10px 30px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .startab h1 {
+        font-size: 2em;
+    }
+    .quote{
+        width: 100%;
+        height: 350px;
+    }
+    #cauquote{
+        font-size:100%; 
+        width: 80%; 
+        height: 60%; 
+        top: 50px; 
+        left: 70px;
+    }
+    .slogan{
+        width: 768px;
+    }
+    .slogan-img img{
+        width: 100%; 
+        height: 100%;
+    }
+    .clients{
+        width: 768px;
+    }
+    #team{
+        height: 390px;
+    }
+    .grid1-container{
+        gap: 20px;
+        width: 768px;
+    }
+    .quan-photo img{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .quote{
+        width: 100%;
+        height: 350px;
+    }
+    #cauquote{
+        font-size:70%; 
+        width: 80%; 
+        height: 60%; 
+        top: 65px; 
+        left: 45px;
+    }
+    /* .slogan-grid-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        
+    }
+    .slogan-img img{
+        width: 55%; 
+        height: 100%;
+        border: 1px solid;
+    }
+    .slogan-grid{
+        width: 55%;
+        height: 100%;
+        border: 1px solid;
+    } */
+    .tittle-h3 {
+        padding-bottom: 5px;
+    }
+    .statistical-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid2-container{
+        display: grid;
+        width: 425px;
+        grid-template-columns: repeat(1, 1fr); 
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .client-icon{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 370px) {
+    .startab h1 {
+        font-size: 1.8em;
+    }
+    .startab p {
+        font-size: .85em;
+    }
+    .quote{
+        height: 370px;
+    }
+    #cauquote{
+        font-size:60%; 
+        width: 200px; 
+        height: 150px; 
+        top: 50px; 
+        left: 9.5px;
+    }
 }
