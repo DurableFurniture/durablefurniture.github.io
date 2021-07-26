@@ -3,12 +3,11 @@ html{
     font-size: 16px;
 }
 .Thang-container-blog{
-    width: 1140px;
+    width: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     padding: 15px 15px 15px 15px;
-    margin: auto;
     
 }
 .Thang-account-banner {
@@ -27,8 +26,6 @@ html{
     margin-bottom: 80px;
 }
 .Thang-container-blog-1{
-    width: 100%;
-    height: 100%;
     display: block;
     margin-right: 15px;
 }
@@ -38,14 +35,18 @@ html{
     height: 600px;
     margin-left: 15px;
 }
-
-.Thang-blog-list{
+.Thang-contariner-fixbox{
     width: 750px;
-    margin-bottom: 60px;
+    height: 660px;
+}
+.Thang-blog-list{
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
 }
 .Thang-blog-figure{
-    width: 750px;
-    height: 440px;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -61,15 +62,15 @@ html{
 }
 .Thang-blog-1{
     background-color: white;
-    width: 750px;
-    /* height: 300px; */
-    /* z-index: 0; */
-    /* margin: 0 auto; */
-    /* position :absolute; */
-    /* margin: -80px 0px 0px 30px; */
-    padding: 0px 60px 0px 60px;
-    /* opacity: 0.8; */
-    /* margin-top: -50px; */
+    width: ;
+    height: 100%;
+    z-index: 0;
+
+    position :absolute;
+    margin: -80px 0px 0px 0px;
+    padding: 30px 30px 0px 30px;
+    opacity: 0.8;
+    display: block;
 }
 .Thang-icon{
     margin-top: 30px;
