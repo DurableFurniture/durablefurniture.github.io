@@ -164,14 +164,9 @@ body, html {
 .statistical-img a{
     position:relative;
     top: 15px;
-    left: -60px;
+    left: -150px;
     font-size: 110%;
     color: #dcf7df;
-}
-
-#transaction {
-    position:relative;
-    left: -70px;
 }
 
 .statistical-text{
