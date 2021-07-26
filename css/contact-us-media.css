@@ -98,7 +98,7 @@
     }
     .Thang-contact-box-2{
         display: flex;
-        width: 375px;
+        width: 100%;
         margin-top: -24px;
         flex-wrap: wrap;
         margin: 0;
@@ -106,7 +106,7 @@
     .Thang-contact-card{
         display: block;
         background-color: white;
-        width: 93%;
+        width: 100%;
         border:  none;
 
     }
