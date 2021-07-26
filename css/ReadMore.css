@@ -82,6 +82,7 @@
     width: 1140px;
     /* background: #949795; */
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 .Thang-relatted h3{
     text-align: center;
@@ -171,9 +172,9 @@ a{
     }
     .Thang-relatted{
         width: 100%;
-
         margin-top: 50px;
         margin: auto;
+        margin-bottom: 100px;
     }
     .Thang-relatted-box{
         width: 100%;
@@ -218,7 +219,6 @@ a{
     }
     .Thang-readmore-box{
         width: 100%;
-        height: 4300px;
     }
     .Thang-readmore-le{
         padding: 0 40px;
