@@ -501,6 +501,10 @@
     padding: 30px 25px 0 30px;
 }
 
+.vinh-blog-post .vinh-inside-text p {
+    text-align: justify;
+}
+
 .vinh-blog-info {
     font-size: 85%;
 }
