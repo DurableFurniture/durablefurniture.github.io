@@ -199,18 +199,6 @@
     top: -15px;
 }
 
-.vinh-button {
-    display: block;
-    font-size: 80%;
-    width: fit-content;
-    padding: 10px 30px;
-    text-decoration: none;
-    color: black;
-    border: 2px solid;
-    transition: all .5s;
-    -moz-transition: all .5s;
-}
-
 /* ------------------------------------------------------ */
 /* POPULAR PRODUCTS */
 /* ------------------------------------------------------ */
