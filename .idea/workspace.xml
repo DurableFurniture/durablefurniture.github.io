@@ -3,41 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9c23f4d4-4328-411f-ae33-8114240f41fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Frato-Metal-Classic-Out-Door-Dining-Chair.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Frato-Metal-Classic-Out-Door-Dining-Chair.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/Alumium-Patio-Dining-Chair.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/Bench-Dining-Chair.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/Lacque-Dining-Chair.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(10).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(12).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(13).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(14).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(15).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(16).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(18).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(19).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(20).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(26).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(27).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/metal-classic-out-door-dining-chair-(9).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(10).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(11).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(12).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(14).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(6).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(7).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(8).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Img/product-detail-img/rattan-modern-dining-chair-(9).jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/product-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product-detail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frato-metal-classic-out-door-dining-chair.html" beforeDir="false" afterPath="$PROJECT_DIR$/frato-metal-classic-out-door-dining-chair.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/product-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wishlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/wishlist.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +78,7 @@
       <workItem from="1627383504331" duration="668000" />
       <workItem from="1627407662051" duration="10882000" />
       <workItem from="1627419304803" duration="59000" />
+      <workItem from="1627419675005" duration="1383000" />
     </task>
     <servers />
   </component>
