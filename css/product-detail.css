@@ -176,11 +176,12 @@ a:hover {
 
 .summary .short-desc {
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .summary .stock {
     font-size: 60%;
-    color: #77a464;
+    text-shadow: 1px 1px 1px #77a464;
     margin-bottom: 5px;
 }
 
@@ -238,7 +239,7 @@ a:hover {
 
 .summary .add-to-cart-button {
     margin-bottom: 10px;
-    padding: 18px 31px;
+    padding: 18px 34px;
     border: 1px solid #fff;
     vertical-align: middle;
     text-align: center;
@@ -367,6 +368,10 @@ a:hover {
 .product-description .desc-img .big img {
     width: 100%;
     margin: 5px;
+}
+
+#description p {
+    text-align: justify;
 }
 
 #reviews .review-card {
