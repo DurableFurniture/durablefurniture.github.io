@@ -231,6 +231,7 @@
     right: 0%;
     display: inline;
 }
+
 .thien-pagination{
     margin-top: 30px ;
     margin-bottom: 30px;
@@ -262,3 +263,10 @@
     border-radius: 50%;
 }
 
+
+
+.fade img {
+    position: relative;
+    text-align: center;
+    height: 100%;
+}
