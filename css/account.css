@@ -1,3 +1,12 @@
+.vinh-outer-wrap {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(/Resources/Img/header-footer-img/livingroom2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 !important;
+    padding: 100px 0;
+    color: white !important;
+}
+
 .vinh-account-container {
     width: 85vw;
     max-width: 1180px;
@@ -5,6 +14,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin: 0 auto;
+
 }
 
 .vinh-account-container form {
@@ -19,14 +29,10 @@
 }
 
 .vinh-customer-input {
-    color:#bebebe;
     border: 1px solid;
     border-radius: 5px;
     padding: 20px;
-}
 
-.vinh-customer-input span {
-    color: #666666;
 }
 
 .vinh-input-box {
@@ -51,7 +57,7 @@
 
 .vinh-forget {
     margin-left: 12px;
-    color: #bebebe;
+    color: white;
 }
 
 .vinh-forget:hover {
@@ -60,4 +66,8 @@
 
 .vinh-checkbox-margin {
     margin-bottom: 20px;
+}
+
+.vinh-button {
+    color: white;
 }
