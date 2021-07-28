@@ -47,6 +47,7 @@ a {
     text-decoration: none;
     border: 2px solid;
     transition: all .5s;
+    font-weight: 500;
 }
 
 .vinh-cart-drop-down .vinh-button:hover {
