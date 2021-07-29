@@ -346,6 +346,10 @@ a:hover {
     background-color: #ffc400 !important;
 }
 
+.discount-side-banner figure {
+    margin: 7px 0;
+}
+
 .product-description .tab-content {
     float: left;
     padding-top: 20px;
@@ -741,6 +745,12 @@ a:hover {
 
     .hong-screen-fixed-btn {
         padding: 12px 30px;
+    }
+
+    .discount-side-banner{
+        width: 50%;
+        padding: 0 5px;
+        float: left;
     }
 }
 
