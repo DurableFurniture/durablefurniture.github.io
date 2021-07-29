@@ -352,7 +352,8 @@
                             Download description</a>
                         <div class="discount-side-banner">
                             <figure class="vinh-promo-pic">
-                                <img class="vinh-pic" src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/offer.jpg">
+                                <img class="vinh-pic"
+                                    src="https://furnihaus.kaththemes.com/demo/wp-content/uploads/2018/05/offer.jpg">
                             </figure>
                         </div>
                         <div class="discount-side-banner">
@@ -873,6 +874,11 @@
                 }
             }
         }
+
+        document.getElementById("myIcon").onclick = function () {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        };
 
         window.onscroll = function () { myFunction() };
 
