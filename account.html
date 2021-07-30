@@ -168,7 +168,8 @@
                 <p>Your shopping cart (1 item)</p>
                 <div class="vinh-cart-item">
                   <figure class="vinh-promo-pic">
-                    <img  class="vinh-pic" src="Resources/Img/product-cart-wish-img/frato-metal-classic-out-door-dining-chair-(1).jpg"/>
+                    <img class="vinh-pic"
+                      src="Resources/Img/product-cart-wish-img/frato-metal-classic-out-door-dining-chair-(1).jpg" />
                   </figure>
                   <span>Frato Metal Classic Out Door Dining Chair</span>
                   <span>1 x $83.00</span>
@@ -221,7 +222,7 @@
           <h1>Register</h1>
           <div class="vinh-customer-input">
             <span>Email address *</span>
-            <input class="vinh-input-box" type="text" style="margin-bottom: 20px;"> 
+            <input class="vinh-input-box" type="text" style="margin-bottom: 20px;">
             <span>Password *</span>
             <input class="vinh-input-box" style="margin-bottom: 20px;" type="password">
             <span>Re-enter Password *</span>
@@ -322,6 +323,11 @@
         }
       }
     }
+
+    document.getElementById("myIcon").onclick = function () {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    };
 
     window.onscroll = function () { myFunction() };
 
