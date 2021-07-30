@@ -278,7 +278,7 @@
 .vinh-short-ad-product ul {
     display: grid;
     position: absolute;
-    top: -80px;
+    top: -90px;
     left: 25px;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 900px;

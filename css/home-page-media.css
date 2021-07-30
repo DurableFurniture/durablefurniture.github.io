@@ -72,7 +72,7 @@
 @media screen and (max-width: 768px) {
     .vinh-outer-wrap {margin: 40px 0 !important;}
     .vinh-section-teller {font-size: 170% !important;}
-    .vinh-blog-wrap {display: flex !important; flex-direction: column; height: 97 0px !important;}
+    .vinh-blog-wrap {display: flex !important; flex-direction: column; height: 970px !important;}
     .vinh-blog-post {width: 85%; margin-bottom: 100px !important; margin: 0 auto;}
     .vinh-short-ad-text {padding-bottom: 20px;}
     .vinh-brand .vinh-drop-down-item {font-size: 100% !important;}
