@@ -220,9 +220,15 @@ a{
     .Thang-readmore-box{
         width: 100%;
     }
+    .Thang-readmore-le h1{
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-top: 60px;
+    }
     .Thang-readmore-le{
         padding: 0 40px;
     }
+
     .Thang-relatted-box{
         width: 100%;
         display: flex;
