@@ -581,8 +581,10 @@ a:hover {
 
 .product-related .product figure {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     overflow: hidden;
+    border-radius: 15px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,.2)
 }
 
 .product-related .product figure:hover {
@@ -598,7 +600,7 @@ a:hover {
     display: none;
     position: absolute;
     right: 0;
-    bottom: 10px;
+    bottom: 40px;
     z-index: 21;
     height: 100%;
     align-items: flex-end;

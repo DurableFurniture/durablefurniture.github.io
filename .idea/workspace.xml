@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9c23f4d4-4328-411f-ae33-8114240f41fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/product-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product-detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frato-metal-classic-out-door-dining-chair.html" beforeDir="false" afterPath="$PROJECT_DIR$/frato-metal-classic-out-door-dining-chair.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +84,8 @@
       <workItem from="1627621937828" duration="5783000" />
       <workItem from="1627641050998" duration="537000" />
       <workItem from="1627646793089" duration="1190000" />
+      <workItem from="1627771279245" duration="5465000" />
+      <workItem from="1627776922463" duration="142000" />
     </task>
     <servers />
   </component>
