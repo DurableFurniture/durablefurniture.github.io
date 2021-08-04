@@ -205,15 +205,15 @@
           <a href="#">Home page</a> > <a href="#">Cart</a> > <a href="#">Check out</a>
           <h2 style="margin-top: 20px;">BILLING DETAILS</h2>
           <div class="vinh-info-grid">
-            <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Email address">
-            <input class="billing-info" type="text" placeholder="First Name">
-            <input class="billing-info" type="text" placeholder="Last Name">
-            <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Address">
+            <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Email address" required>
+            <input class="billing-info" type="text" placeholder="First Name" required>
+            <input class="billing-info" type="text" placeholder="Last Name" required>
+            <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Address" required>
             <input class="billing-info" style="grid-column: span 2;" type="text"
               placeholder="Apartment, suite, etc. (optional)">
-            <input class="billing-info" type="text" placeholder="City">
-            <input class="billing-info" type="text" placeholder="Province">
-            <input class="billing-info" type="text" placeholder="Country">
+            <input class="billing-info" type="text" placeholder="City" required>
+            <input class="billing-info" type="text" placeholder="Province" required>
+            <input class="billing-info" type="text" placeholder="Country" required>
             <input class="billing-info" type="text" placeholder="Zip Code">
             <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Phone Number">
           </div>
@@ -261,7 +261,7 @@
             <span style="color: black; font-size: 90%;">I have read and agree to the website terms and conditions
               *</span>
           </div>
-          <input type="button" class="vinh-order-btn" value="Place Order">
+          <input type="submit" class="vinh-order-btn" value="Place Order">
         </div>
       </div>
     </div>
