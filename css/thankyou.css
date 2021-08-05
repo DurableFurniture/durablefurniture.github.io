@@ -13,3 +13,9 @@
 .vinh-outer-wrap a:hover {
     text-decoration: underline;
 }
+
+.vinh-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
