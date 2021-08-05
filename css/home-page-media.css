@@ -123,6 +123,7 @@
   
 @media screen and (max-width: 645px) {
     .vinh-outer-wrap {font-size: 75%}
+    .map {display: none !important;}
 }
 
 @media screen and (max-width: 898px) {
@@ -171,7 +172,6 @@
     .vinh-short-ad-product {display: none;}
     .vinh-find-store {display: none !important;}
     .vinh-about-company {height: 500px !important;}
-    #map {display: none !important;}
     .vinh-store-wrap {grid-template-columns: 1fr !important;}
 }
 
