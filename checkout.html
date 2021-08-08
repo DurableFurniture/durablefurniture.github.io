@@ -217,17 +217,17 @@
           <a href="#">Home page</a> > <a href="#">Cart</a> > <a href="#">Check out</a>
           <h2 style="margin-top: 20px;">BILLING DETAILS</h2>
           <div class="vinh-info-grid">
-            <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Email address" required>
-            <input class="billing-info" type="text" placeholder="First Name" required>
-            <input class="billing-info" type="text" placeholder="Last Name" required>
-            <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Address" required>
-            <input class="billing-info" style="grid-column: span 2;" type="text"
+            <input class="billing-info" style="grid-column: span 2;" type="email" maxlength="50" placeholder="Email address" required>
+            <input class="billing-info" type="text" placeholder="First Name" maxlength="50" required>
+            <input class="billing-info" type="text" placeholder="Last Name" maxlength="50" required>
+            <input class="billing-info" style="grid-column: span 2;" type="text" maxlength="150" placeholder="Address" required>
+            <input class="billing-info" style="grid-column: span 2;" type="text" maxlength="100"
               placeholder="Apartment, suite, etc. (optional)">
-            <input class="billing-info" type="text" placeholder="City" required>
-            <input class="billing-info" type="text" placeholder="Province" required>
-            <input class="billing-info" type="text" placeholder="Country" required>
-            <input class="billing-info" type="text" placeholder="Zip Code">
-            <input class="billing-info" style="grid-column: span 2;" type="text" placeholder="Phone Number">
+            <input class="billing-info" type="text" placeholder="City" maxlength="50" required>
+            <input class="billing-info" type="text" placeholder="Province" maxlength="50" required>
+            <input class="billing-info" type="text" placeholder="Country" maxlength="50" required>
+            <input class="billing-info" type="text" maxlength="8" placeholder="Zip Code">
+            <input class="billing-info" style="grid-column: span 2;" type="text" maxlength="13" placeholder="Phone Number">
           </div>
           <input type="checkbox" style="margin: 15px 10px 0 0;"><span>Subcribe to our newsletter</span>
         </div>
@@ -248,9 +248,9 @@
             <span>$83.00</span>
           </div>
           <div class="vinh-flex" style="padding-top: 10px;">
-            <input style="width: 70%; padding: 15px 10px; border: 1px solid #bebebe; font-size: 100%;"
+            <input style="width: 70%; padding: 15px 10px; border: 1px solid #bebebe; font-size: 100%;" maxlength="10"
               placeholder="Enter your coupon here">
-            <button class="coupon-btn">Apply</button>
+            <input type="button" value="Apply" class="coupon-btn">
           </div>
           <div class="vinh-flex vinh-border">
             <p>Subtotal:</p>
