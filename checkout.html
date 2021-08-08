@@ -174,7 +174,7 @@
                   <div class="vinh-cart-item">
                     <figure class="vinh-promo-pic">
                       <img class="vinh-pic"
-                      src="Resources/Img/product-cart-wish-img/rattan-modern-dining-chair-(13).jpg" />
+                        src="Resources/Img/product-cart-wish-img/rattan-modern-dining-chair-(13).jpg" />
                     </figure>
                     <span>Frato Rattan Modern Dining Chair</span>
                     <span>1 x $38.00</span>
@@ -212,22 +212,25 @@
     </header>
 
     <div class="vinh-outer-wrap">
-      <form class="vinh-checkout-container" action="thankyou.html">
+      <form class="vinh-checkout-container" id="myForm" action="thankyou.html">
         <div class="vinh-checkout-detail">
           <a href="#">Home page</a> > <a href="#">Cart</a> > <a href="#">Check out</a>
           <h2 style="margin-top: 20px;">BILLING DETAILS</h2>
           <div class="vinh-info-grid">
-            <input class="billing-info" style="grid-column: span 2;" type="email" maxlength="50" placeholder="Email address" required>
+            <input class="billing-info" style="grid-column: span 2;" type="email" maxlength="50"
+              placeholder="Email address" required>
             <input class="billing-info" type="text" placeholder="First Name" maxlength="50" required>
             <input class="billing-info" type="text" placeholder="Last Name" maxlength="50" required>
-            <input class="billing-info" style="grid-column: span 2;" type="text" maxlength="150" placeholder="Address" required>
+            <input class="billing-info" style="grid-column: span 2;" type="text" maxlength="150" placeholder="Address"
+              required>
             <input class="billing-info" style="grid-column: span 2;" type="text" maxlength="100"
               placeholder="Apartment, suite, etc. (optional)">
             <input class="billing-info" type="text" placeholder="City" maxlength="50" required>
             <input class="billing-info" type="text" placeholder="Province" maxlength="50" required>
             <input class="billing-info" type="text" placeholder="Country" maxlength="50" required>
             <input class="billing-info" type="text" maxlength="8" placeholder="Zip Code">
-            <input class="billing-info" style="grid-column: span 2;" type="text" maxlength="13" placeholder="Phone Number">
+            <input class="billing-info" style="grid-column: span 2;" type="text" maxlength="13"
+              placeholder="Phone Number">
           </div>
           <input type="checkbox" style="margin: 15px 10px 0 0;"><span>Subcribe to our newsletter</span>
         </div>
@@ -249,8 +252,8 @@
           </div>
           <div class="vinh-flex" style="padding-top: 10px;">
             <input style="width: 70%; padding: 15px 10px; border: 1px solid #bebebe; font-size: 100%;" maxlength="10"
-              placeholder="Enter your coupon here">
-            <input type="button" value="Apply" class="coupon-btn">
+              placeholder="Enter your coupon here" name="fname" id="coupon">
+            <input type="button" value="Apply" class="coupon-btn" onclick="validateForm()">
           </div>
           <div class="vinh-flex vinh-border">
             <p>Subtotal:</p>
@@ -273,7 +276,7 @@
             <span style="color: black; font-size: 90%;">I have read and agree to the website terms and conditions
               *</span>
           </div>
-            <input type="submit" class="vinh-order-btn" value="Place Order">
+          <input type="submit" class="vinh-order-btn" value="Place Order">
         </div>
       </form>
     </div>
@@ -398,6 +401,16 @@
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
     };
+
+    function validateForm() {
+      let x = document.forms["myForm"]["fname"].value;
+      let y = document.getElementById("coupon");
+      if (x == "") {
+        alert("Please enter valid coupon!");
+        document.getElementById("coupon").focus();
+        return false;
+      }
+    }
   </script>
 
 </body>
